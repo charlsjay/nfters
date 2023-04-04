@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.nav-bar {
+  display: flex;
+  margin: 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.nav-bar h3 {
+  color: #3d00b7;
+  font-family: "Russo One";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.nav-links {
+  display: flex;
+  gap: 47px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #000000;
+}
+.nav-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #efefef;
+  border-radius: 100px;
+}
+.nav-input input {
+  margin-left: -40px;
+  width: 200px;
+  height: 30px;
+
+  line-height: 21px;
+  color: #c0c0c0;
+
+  font-size: 16px;
+  border: none;
+}
+.nav-input img {
+  margin-right: -33px;
+}
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+.nav-btn1 {
+  width: 131px;
+  height: 50px;
+  background-color: #3d00b7;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 18px, 40px, 18px, 40px;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.nav-btn2 {
+  color: #3d00b7;
+  width: 156px;
+  height: 50px;
+  font-size: 14px;
+  padding: 18px, 22px, 18px, 22px;
+  border: 2px solid #3d00b7;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.hero {
+  height: 440px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero-left h1 {
+  width: 612px;
+  height: 96px;
+  font-family: "Russo One";
+  letter-spacing: 0.05em;
+
+  font-size: 50px;
+  line-height: 48px;
+  color: #000000;
+}
+.hero-left h5 {
+  width: 471px;
+  height: 96px;
+
+  font-family: "DM Sans";
+  font-size: 20px;
+  line-height: 32px;
+  color: #565656;
+  font-weight: 400;
+}
+.hero-left button {
+  width: 209px;
+  height: 65px;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d00b7;
+  border-radius: 60px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+  font-family: "Averta Demo PE Cutted Demo";
+  cursor: pointer;
+}
+.impressions {
+  display: flex;
+  gap: 23px;
+}
+.impressions-box h3 {
+  font-family: "Russo One";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+}
+.impressions-box p {
+  font-family: "DM Sans";
+  font-size: 20px;
+  color: #565656;
+  line-height: 32px;
+}
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 540px;
+  height: 440px;
+}
+.heroimg1 {
+  position: absolute;
+  margin-left: 185px;
+  border-radius: 24px;
+}
+.heroimg2 {
+  position: absolute;
+  margin-left: 90px;
+  border-radius: 24px;
+}
+.heroimg3 {
+  position: absolute;
+  border-radius: 24px;
+}
+.heroimg4 {
+  position: absolute;
+  margin-right: 400px;
+  margin-top: 100px;
+
+  transform: rotate(11deg);
+}
+.hero-right h6 {
+  position: absolute;
+  width: 237px;
+  height: 37px;
+  font-family: "DM Sans";
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin-bottom: 370px;
+  margin-right: 111px;
+}
+.heroimg5 {
+  position: absolute;
+  margin-bottom: 280px;
+  margin-right: 210px;
+}
+.small-section {
+  height: 326px;
+  background: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 120px;
+}
+.amazing-txt h3 {
+  font-family: "Russo One";
+  width: 398px;
+  height: 68px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+}
+.fast-growth {
+  width: 300;
+  height: 107px;
+}
+.fast-growth h5 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-family: "DM Sans";
+}
+.fast-growth p {
+  width: 249px;
+  height: 66px;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #696969;
+  margin-left: 50px;
+}
+.icon-txt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.collection-over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 540px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 100px;
+
+  gap: 53px;
+}
+.collection-icon-txt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.collection-icon-txt h5 {
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.collection-over-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.collection-over-btn1 {
+  border: none;
+  width: 113px;
+  height: 45px;
+  background-color: #3d00b7;
+  color: #ffffff;
+  position: absolute;
+  padding: 14px 20px;
+  border-radius: 50px;
+  margin-left: 164px;
+  margin-top: 94px;
+  cursor: pointer;
+}
+.collection-over-btn2 {
+  position: absolute;
+  border: 1px solid #3d00b7;
+  width: 116px;
+  height: 50px;
+  color: #3d00b7;
+  background-color: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+  margin-left: 165px;
+  margin-top: 91px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.collection-over-3 {
+  display: flex;
+  align-items: center;
+
+  gap: 22px;
+  width: 313px;
+  height: 66px;
+}
+
+.cryptoFunks {
+  display: flex;
+  flex-direction: column;
+}
+.cryptoFunks h3 {
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+.cryptoFunks-img-txt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+.cryptoFunks-img-txt h5 {
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: #636363;
+  font-family: "Poppins";
+}
+.collection-over-3 h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  color: #14c8b0;
+}
+.top-collections-over {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.top-collections-over h1 {
+  font-family: "Russo One";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.top-collections-over h2 {
+  font-size: 18px;
+  line-height: 23px;
+  color: #3d00b7;
+}
+.CollectionFeaturedNFTs {
+  height: 619px;
+  background-color: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CollectionFeaturedNFTs-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.CollectionFeaturedNFTs-txt h2 {
+  position: absolute;
+  font-family: "Russo One";
+  font-weight: 700;
+  margin-top: -245px;
+  font-size: 28px;
+  line-height: 33.6px;
+  color: #000000;
+  width: 460px;
+  height: 34px;
+}
+.CollectionFeaturedNFTs-btn {
+  position: absolute;
+  margin-top: 335px;
+  margin-left: 280px;
+  cursor: pointer;
+
+  background-color: #ffffff;
+  width: 102px;
+  height: 32px;
+  color: #2639ed;
+  border: 1px solid #2639ed;
+  border-radius: 60px;
+  font-size: 11px;
+  line-height: 14.3px;
+}
+.Signup-Nft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.Signup-Nft-left {
+  width: 700px;
+  height: 606px;
+  /* background-color: #3d00b7; */
+}
+.Signup-Nft-1 {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 250px;
+}
+.Signup-Nft-2 {
+  position: absolute;
+  margin-top: 345px;
+  margin-left: -190px;
+}
+.Signup-Nft-3 {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: -40px;
+}
+.Signup-Nft-5 {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 185px;
+}
+.Signup-Nft-6 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 285px;
+}
+
+.Signup-Nft-right {
+  width: 500px;
+  height: 606px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: #2639ed; */
+}
+.Signup-Nft-right h2 {
+  font-family: "Russo One";
+  width: 240px;
+  height: 76px;
+  margin-top: 165px;
+
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+.Signup-Nft-right p {
+  color: #636363;
+  font-size: 18px;
+  width: 499px;
+  height: 115px;
+}
+.Signup-Nft-right button {
+  width: 212px;
+  height: 65px;
+  border-radius: 50px;
+  padding: 20px 40px;
+  background-color: #3d00b7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+  font-family: "Russo";
+}
+.discover-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+}
+.discover-more h1 {
+  font-family: "Russo One";
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+  margin-left: -820px;
+  margin-top: 50px;
+}
+.discover-more-nft {
+  display: grid;
+  gap: 40px;
+  margin-top: 65px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.discover-cards {
+  width: 270px;
+  height: 373px;
+  /* border: 1.09706px solid rgba(0, 0, 0, 0.5); */
+  background-color: #ffffff;
+  border-radius: 13.1647px;
+  padding: 10px;
+}
+.discover-small-1 {
+  position: absolute;
+  margin-left: -237px;
+  margin-top: 204px;
+}
+.discover-small-2 {
+  position: absolute;
+  margin-left: -220px;
+  margin-top: 204px;
+}
+.discover-small-3 {
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 204px;
+}
+.discover-small-4 {
+  position: absolute;
+  margin-left: -180px;
+  margin-top: 204px;
+}
+.discover-cards h2 {
+  font-size: 20px;
+  line-height: 19px;
+  font-family: "DM Sans";
+  margin-top: 17px;
+  margin-left: 10px;
+}
+.discover-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 11px;
+}
+.discover-cards-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  margin-top: 32px;
+}
+.discover-cards-btn1 {
+  font-size: 11px;
+  line-height: 19px;
+  color: #5539ab;
+  padding: 4.38824px 10.9706px;
+  background-color: #f5f5f5;
+  border-radius: 110px;
+  border: none;
+  /* border: 0.5px solid #c0c0c0; */
+}
+.discover-cards-btn2 {
+  font-size: 15px;
+  line-height: 20px;
+  color: #5539ab;
+  background-color: #ffffff;
+  padding: 4.38824px 10.9706px;
+  /* background-color: #f5f5f5; */
+  border-radius: 110px;
+  border: 0.3px solid #c0c0c0;
+  cursor: pointer;
+}
+.filter-btn {
+  display: flex;
+  gap: 12px;
+}
+.filter-btns {
+  display: flex;
+  gap: 380px;
+  margin-top: 30px;
+  align-items: center;
+}
+.all-categories {
+  padding: 10px 20px;
+  width: 132px;
+  height: 38px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgba(220, 220, 220, 0.2);
+  border: 0.1px solid #696969;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.filter-btn2 {
+  background-color: rgba(220, 220, 220, 0.2);
+  border-radius: 100px;
+  padding: 10px 20px;
+  border: 0.1px solid #696969;
+  font-size: 14px;
+  cursor: pointer;
+}
+.allFilters {
+  background-color: rgba(220, 220, 220, 0.2);
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: #371c87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.05px #371c87;
+  cursor: pointer;
+}
+.moreNfts-btn {
+  padding: 20px 40px;
+  border: 2px solid #3d00b7;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #4f33a3;
+  margin: 70px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: center;
+
+  gap: 100px;
+  margin: 60px;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-1 h2 {
+  font-family: "Russo One";
+  font-size: 24px;
+  line-height: 29px;
+}
+.footer-1 p {
+  font-size: 14px;
+  color: #565656;
+  width: 333px;
+  height: 66px;
+}
+.footer-company-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer-company-nav a {
+  font-size: 14px;
+  color: #3d3d3d;
+  line-height: 28px;
+  text-decoration: none;
+}
+.footer-company-nav p {
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  font-weight: 600;
+}
+.footer-resources {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer-resources a {
+  font-size: 14px;
+  color: #3d3d3d;
+  line-height: 28px;
+  text-decoration: none;
+}
+.footer-resources p {
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  font-weight: 600;
+}
+.footer-newsteller h3 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+}
+.footer-newsteller {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-newsteller p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #363636;
+  line-height: 22px;
+  width: 362px;
+  height: 65px;
+}
+.footer-newsteller-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-subscribe-email {
+  padding: 10px 20px;
+  width: 364px;
+  height: 61px;
+  background: #ffffff;
+  border: 2px solid #f1f1f1;
+  border-radius: 45.595px;
+}
+.footer-subscribe-button {
+  padding: 15px 30px;
+  position: absolute;
+  margin-right: -165px;
+  width: 150px;
+  height: 46px;
+  background-color: #2639ed;
+  color: #ffffff;
+  border-radius: 46px;
+  border: none;
+}
+.footer-copyright {
+  border-top: 1px solid #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-copyright p {
+  margin: 30px;
+  color: #a4a4a4;
+  font-size: 14px;
+}
+.filterbtn-active {
+  background-color: #3d00b7;
+  color: #ffffff;
+}
+/* For filter to work, created hidden and show-all classes */
+.hidden {
+  display: none;
+}
+.show-all {
+  display: block;
+}
+/* For hamburger-bar */
+.hamburger-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+}
+.hamburger-bar .company-icon {
+  color: white;
+  font-family: "Russo One";
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 100%;
+}
+.hamburger-bar .search-mobile {
+  width: 12%;
+  margin-right: 1%;
+  height: 80%;
+}
+.search-mobile input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #efefef;
+  border-radius: 5px;
+}
+.hamburger-bar span {
+  display: block;
+  position: relative;
+  top: 0;
+  margin: 15px;
+  height: 1px;
+  width: 25px;
+  background-color: white;
+  transition: top 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.button-menu {
+  cursor: pointer;
+}
+.hamburger-bar .rotate-1 {
+  transform: rotate(45deg);
+  top: 8px;
+}
+.hamburger-bar .rotate-2 {
+  transform: rotate(-45deg);
+  top: -8px;
+}
+.hamburger-content {
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  color: white;
+  background-color: rgba(18, 17, 17, 0.8);
+  transform: scaleY(0);
+  transition: all 0.3s ease-in-out;
+  transform-origin: 0 0;
+}
+.hamburger-content li {
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 2px solid white;
+}
+.zoom-menu {
+  transform: scaleY(1);
+}
